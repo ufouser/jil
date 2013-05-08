@@ -1,0 +1,5 @@
+#ifndef JIL_EDITOR_COMPILE_CONFIG_H_
+#define JIL_EDITOR_COMPILE_CONFIG_H_
+#pragma once
+
+#endif // JIL_EDITOR_COMPILE_CONFIG_H_

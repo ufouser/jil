@@ -1,0 +1,15 @@
+void TextWindow::OnTextSize(wxSizeEvent& evt) {
+    ...
+    bool wrap_changed = wrap_helper()->Wrap(text_area_->GetClientSize().GetWidth(), wrap_delta);
+    ...
+}
+
+There is  a small chance you have never heard about Vim. It is included with almost every Linux distribution as the standard Vi editor. For many systems such as FreeBSD and Sun Solaris 8 it comes as an extra package you can easily install. For other systems (MS-Windows, Macintosh, OS/2, etc.) executables and source code can be downloaded from many places on the internet.
+
+Vim is a text editor like Vi, but with many extra features; of the Vi-like editors Vim has often been voted the best - in fact the main competition comes from Emacs, in all its different versions. In 1999 Emacs was selected the winner in the Linuxworld text editing category, with Vim second, but in February 2000 Vim won the Slashdot Beanie award for best open source text editor pushing Emacs into second place. So these editors are in the same league.
+
+One of the main advantages of Vim (and Vi) is that the most often used commands are typed with alphabetic characters. This is much faster than using Control or Meta key combinations, and less stressful on the fingers. The extra time it takes to learn the commands is soon repaid by allowing you to work efficiently. However Vim, unlike Vi, also supports the use of cursor keys in Insert mode and so a beginner can get started quickly before gradually learning more commands to gain speed.
+
+Compared to other Vi-like editors Vim has very many features: syntax highlighting for over 180 languages, automatic indenting for C code, a powerful script language, etc. There is something for everyone.
+
+The development of Vim is ongoing. At the moment of writing, the work for Vim version 6.0 has finished in September; more about that further on. The main goal for Vim is to be a very stable and useful tool; besides adding more features, improving the existing features and fixing bugs is pursued very actively. Compare that to the original Vi, for which not much work has been done since 1985.
